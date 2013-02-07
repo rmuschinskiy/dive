@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-__author__ = '7days'
+__author__ = 'S1ndb@d'
 
 # Sudoku [http://en.wikipedia.org/wiki/Sudoku]
 # is a logic puzzle where a game
