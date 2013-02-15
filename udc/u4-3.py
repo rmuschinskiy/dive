@@ -39,3 +39,4 @@ def add_to_index(index,keyword,url):
 #print index
 #>>> [['udacity', ['http://udacity.com', 'http://npr.org']],
 #>>> ['computing', ['http://acm.org']]]
+
