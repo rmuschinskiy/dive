@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-__author__ = 'S1ndb@d'
+__author__ = 'S1ndbad'
 
 # Write a procedure, convert_seconds, which takes as input a non-negative
 # number of seconds and returns a string of the form
