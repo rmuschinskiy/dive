@@ -58,9 +58,9 @@ def stirling(num_of_items,num_of_sets):
 
 
 def bell(num_of_items):
-    num_of_sets = 0
+    num_of_sets = 1
     bell_number = 0
-    while num_of_sets<num_of_items:
+    while num_of_sets<=num_of_items:
         bell_number += stirling(num_of_items,num_of_sets)
         num_of_sets += 1
     return bell_number
