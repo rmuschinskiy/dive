@@ -11,22 +11,21 @@ __author__ = 'Sindbad'
 
 
 def longest_repetition(elements):
-    prev = None
-    counter = 1
-    run_counter = 0
-    count_keeper = []
+    best_element = None
+    length = 0
+    current_length = 0
+    current = None
     for el in elements:
-        if el == prev:
-            counter += 1
+        if current!=el:
+            current=el
+            current_length = 1
         else:
-            if prev is not None:
-                count_keeper.append([prev,counter])
-                counter = 1
-        prev = el
-        run_counter += 1
-        if run_counter==len(elements):
-            count_keeper.append([prev,counter])
-    return count_keeper
+            current_length += 1
+        if current_length > length:
+            best_element = current
+            length = current_length
+    return best_element
+
 
 
 
